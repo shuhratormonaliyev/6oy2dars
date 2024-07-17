@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+    }
+    body {
+        background-color: antiquewhite;
+    }
+    .footer-img{
+    width: 400px;
+    padding: 10px;
+    background-color: #60301f;
+    border-radius:8px;
+    cursor: pointer;
+    transition: all 0.5s;
+    }
+    .footer-img:hover {
+        transform: scale(0.9);
+    }
+    img{
+    width: 100%;
+    border-radius: 12px;
+    }
+    .phone_email_wrapper{
+    display: flex;
+    gap: 40px;
+    text-align-last: left;
+    }
+    .name{
+    text-align-last: left;
+    }
+    .address{
+    text-align-last: left;
+    font-weight: 400;
+    }
+.phone_email_wrapper h3 {
+    padding-left: 60px;
+    color: rgb(48, 125, 248);
+}
